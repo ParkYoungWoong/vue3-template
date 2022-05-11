@@ -19,7 +19,6 @@
     "@babel/plugin-transform-runtime": "^7.17.10",
     "@babel/preset-env": "^7.17.10",
     "@babel/runtime-corejs3": "^7.17.9",
-    "@vue/compiler-sfc": "^3.2.33",
     "autoprefixer": "^10.4.5",
     "babel-loader": "^8.2.5",
     "copy-webpack-plugin": "^10.2.4",
