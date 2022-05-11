@@ -4,8 +4,7 @@
   "description": "",
   "scripts": {
     "dev": "webpack-dev-server --mode development",
-    "build": "webpack --mode production",
-    "babel": "babel src/main.js --out-dir dist"
+    "build": "webpack --mode production"
   },
   "keywords": [],
   "author": "",
