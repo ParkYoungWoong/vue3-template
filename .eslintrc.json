@@ -25,6 +25,7 @@
       "svg": "always",
       "math": "always"
     }],
-    "vue/comment-directive": "off"
+    "vue/comment-directive": "off",
+    "vue/multi-word-component-names": "off"
   }
 }
