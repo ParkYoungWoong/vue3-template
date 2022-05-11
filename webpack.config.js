@@ -12,7 +12,7 @@ module.exports = (env, options) => {
       }
     },
     entry: './src/main.js',
-    // entry: { main: '', module1: '', module2: '' },
+    // entry: { main: './src/main.js' },
     output: {
       // path: `${__dirname}/dist`,
       // filename: '[name].js',
@@ -52,6 +52,11 @@ module.exports = (env, options) => {
               }
             }
           ]
+        },
+        // https://webpack.kr/guides/asset-modules/
+        {
+          test: /\.(png|jpe?g|svg|gif|webp)/,
+          type: 'asset/resource'
         }
       ]
     },
